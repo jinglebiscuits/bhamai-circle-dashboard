@@ -2,7 +2,7 @@
 
 ## Project Idea
 - Build a lightweight, 1-page analytics experience for Birmingham AI organizers to spotlight what's happening inside the community.
-- Use Circle.so's headless API with admin-level access to pull activity data, surface high-level stats, and highlight emerging interests.
+- Use Circle.so's Data API (plus admin access where needed) to ingest activity data, surface high-level stats, and highlight emerging interests.
 
 ## Guiding Questions
 - How active is the community right now?
@@ -22,14 +22,14 @@
 ## Flexibility & Scope
 - Start small: a single-page view is enough; keep the stack simple and easy to iterate.
 - Prioritize clear storytelling over exhaustive detail—show "what's going on" at a glance, with actionable follow-ups.
-- Stay open to interim data sources (e.g. CSV exports) if headless API authentication is still pending, but plan for automated pulls.
+- Stay open to interim data sources (e.g. CSV exports) if Data API access is still pending, but plan for automated pulls into a lightweight store or warehouse.
 
 ## Open Questions
-- Do we have all required headless/admin API permissions and clarity on rate limits?
+- Do we have all required Data API/admin permissions and clarity on rate limits?
 - Which metrics are must-have for leadership (e.g., DMs, event RSVPs, member segments)?
 - How fresh should the data be, and who owns ongoing maintenance?
 
 ## Next Steps (Suggested)
-- Confirm API credentials, authentication flow, and key endpoints for analytics aggregation.
+- Confirm Data API eligibility, credentials, and ingestion approach (direct fetch vs. ETL tool).
 - Sketch the core layout/sections for the 1-page dashboard, starting with the organizer's top questions.
 - Create a minimal data model or mock dataset to iterate on design quickly, focusing on trends and actionable insights.
